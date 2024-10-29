@@ -1,0 +1,40 @@
+@font-face {
+    font-family: bold;
+    src: url(Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: regular;
+    src: url(Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: light;
+    src: url(Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: boldd;
+    src: url(Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: regularr;
+    src: url(Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: lighty;
+    src: url(Montserrat-Light.ttf);
+}
+
+
+html {
+    height: 100%;
+}
+
+* {
+    font-family: regular;
+    margin: 0;
+    scroll-behavior: smooth;
+}
