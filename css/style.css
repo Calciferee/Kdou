@@ -31,10 +31,166 @@
 
 html {
     height: 100%;
+    background-color: black;
+    color: white;
 }
 
 * {
     font-family: regular;
     margin: 0;
     scroll-behavior: smooth;
+}
+
+/* ACCEUIL.HTML ------------------------------------------------------------- */
+
+/* Navigation barre */
+
+nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 50px 90px;
+}
+
+nav h1 {
+    font-family: boldd;
+    font-size: 2.5em;
+    border-bottom: 1px solid;
+}
+
+nav h1:hover {
+    cursor: crosshair;
+}
+
+nav a {
+    font-family: lighty;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: 900;
+    border-bottom: 1px solid;
+}
+
+/* L'équipe du projet */
+
+.the-team {
+    margin: 100px 0;
+}
+
+.the-team h2 {
+    width: fit-content;
+    font-family: boldd;
+    font-size: 1.5em;
+    border-bottom: 1px solid;
+    margin: 20px 150px;
+}
+
+.the-team > div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+
+.the-team > div img {
+    border: 3px solid;
+}
+
+.the-team p {
+    width: 40%;
+    text-align: justify;
+    margin: 20px 150px;
+}
+
+/* Notre mission */
+
+.the-mission h2 {
+    width: fit-content;
+    font-family: boldd;
+    font-size: 1.5em;
+    border-bottom: 1px solid;
+    margin: 20px 150px;
+}
+
+.the-mission a {
+    font-family: lighty;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+    border-bottom: 1px solid;
+}
+
+.the-mission a:hover {
+    font-weight: 900;
+}
+
+.the-mission div {
+    display: flex;
+    flex-direction: column;
+}
+
+.the-mission li {
+    width: 33.333%;
+    margin: 20px 50px 50px 50px;
+}
+
+.the-mission ol {
+    display: flex;
+    justify-content: space-around;
+    width: calc(100% - 40px);
+}
+
+.the-mission ol p {
+    text-align: justify;
+    width: fit-content;
+}
+
+.the-mission > p {
+    text-align: justify;
+    margin: 20px 25% 0 150px;
+}
+
+/* Contact */
+
+footer {
+    display: flex;
+    color: black;
+    background-color: white;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+footer h2 {
+    width: fit-content;
+    font-family: boldd;
+    font-size: 1.5em;
+    border-bottom: 1px solid;
+    margin: 20px 0;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;  
+    justify-content: center;
+}
+
+footer h1 {
+    font-family: boldd;
+    font-size: 2.5em;
+    border-bottom: 1px solid;
+}
+
+footer h1:hover {
+    cursor: crosshair;
+}
+
+footer a {
+    font-family: lighty;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: 900;
 }
